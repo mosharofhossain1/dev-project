@@ -1,0 +1,110 @@
+/* Common Shared Css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.primary_btn {
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.primary_color {
+    color: #FD6E0A;
+}
+
+/* Header Section Style Css Start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/* Banner Section cSS Styles */
+.banner_section {
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+   
+}
+
+.banner_contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_title {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 15px 0px;
+    color: #181818;
+}
+
+.banner_desc {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+}
+
+.banner_bottom_btns {
+    margin-top: 20px;
+}
+
+.banner_left_content {
+    flex-basis: 45%;
+}
+
+.banner_right_content {
+    flex-basis: 50%;
+}
+
+.banner_right_content img {
+    width: 584px;
+    height: 676px;
+
+}
