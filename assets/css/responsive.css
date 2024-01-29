@@ -1,9 +1,81 @@
-@media screen and (max-width: 768px) {
-   /*  nav{
+/* Mobile Device Brekpoint */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    nav .menu_btn{
+        display: block;
+        margin-right: 40px;
+      }
+      nav ul{
         display: none;
-    }
-    .banner_contents{
+      }
+      nav .logo{
+        font-size: 30px;
+        margin-left: 20px;
+      }
+      .banner_section{
+        background-image: none;
+      }
+      .banner_contents {
         flex-direction: column;
-    }
-    */
+        margin-top: 60px;
+        padding: 10px;
+      }
+      .banner_left_content, .banner_right_content{
+        width: 100%;
+        
+      }
+      .banner_right_content img{
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+      }
+       
+      .about_section{
+        padding:10px;
+      }
+      .about_info{
+        flex-direction: column;
+      }
+      .about_info > div{
+        margin-bottom: 20px;
+      }
+      .about_desc{
+        width: 100%;
+      }
+      .skils_desc{
+        width: 100%;
+        padding: 10px;
+      }
+      .skils_container{
+        flex-direction: column;
+        padding: 10px;
+      }
+      .skils_container .skil{
+        margin-top: 35px;
+      }
+      .resume_title{
+        font-size: 30px;
+      }
+      .resume_info{
+        flex-direction: column;
+        padding: 10px;
+      }
+      .contact_section{
+        padding: 20px;
+      }
+      .contact_details{
+        flex-direction: column;
+      }
+      .contact_left{
+        width: 100%;
+        margin: 30px 0px;
+      }
+      .contact_right{
+        width: 100%;
+      }
+      form input,textarea{
+        width: 100%;
+      }
 }

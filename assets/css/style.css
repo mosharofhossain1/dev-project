@@ -51,6 +51,10 @@ nav>ul {
     align-items: center;
 }
 
+nav .menu_btn{
+    display: none;
+}
+
 nav ul li {
     list-style: none;
     margin-right: 10px;
@@ -96,13 +100,7 @@ nav ul li a {
     margin-top: 20px;
 }
 
-.banner_left_content {
-    /* flex-basis: 45%; */
-}
-
-.banner_right_content {
-    /* flex-basis: 50%; */
-}
+ 
 
 .banner_right_content img {
     width: 584px;
@@ -311,3 +309,5 @@ textarea {
     font-size: 16px;
     color: #757575;
 }
+
+/* End Style Sections  */
